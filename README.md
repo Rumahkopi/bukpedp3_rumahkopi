@@ -18,7 +18,7 @@ Mungkin cukup sekian perkenalan diri saya semoga dengan adanya perkenalan ini bi
 
 ![Syahid](https://raw.githubusercontent.com/Rumahkopi/bukpedp3_rumahkopi/main/foto/syahid.jpg)
 
-**Penulis 2:** Perkenalkan nama saya Syahid
+**Penulis 2:** Muhammad Syahid Al Fajri. Lahir di Kota Bandung pada tanggal 25 Juli 2003, anak kedua dari 3 saudara. Saya tinggal di bandung dan menempuh pendidikan SD di SDN 1 Caringin, lalu SMPN 1 Cipeundeuy, dan SMAN 1 Cikalong Wetan. Saat ini melanjutkan pendidikan di Universitas Logistik dan Bisnis Internasional (ULBI) Bandung pada program studi D4 Teknik Informatika.
 
 
 
