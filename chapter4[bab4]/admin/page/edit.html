@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" class="has-aside-left has-aside-mobile-transition has-navbar-fixed-top has-aside-expanded">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Produk Rumah Kopi</title>
+  <link rel="icon" type="image/x-icon" href="../img/logo2.png">
+
+  <!-- Bulma is included -->
+  <link rel="stylesheet" href="../css/main.css">
+
+  <!-- Fonts -->
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+</head>
+<body>
+  <div id="loader-wrapper">
+		<div id="loader"></div>
+		<div id="loading-text"></div>
+	  </div>
+<div id="app">
+  <nav id="navbar-main" class="navbar is-fixed-top">
+    <div class="navbar-brand">
+      <a class="navbar-item is-hidden-desktop jb-aside-mobile-toggle">
+        <span class="icon"><i class="mdi mdi-forwardburger mdi-24px"></i></span>
+      </a>
+      <div class="navbar-item has-control">
+        <div class="control"><input placeholder="Search everywhere..." class="input"></div>
+      </div>
+    </div>
+    <div class="navbar-brand is-right">
+      <a class="navbar-item is-hidden-desktop jb-navbar-menu-toggle" data-target="navbar-menu">
+        <span class="icon"><i class="mdi mdi-dots-vertical"></i></span>
+      </a>
+    </div>
+    <div class="navbar-menu fadeIn animated faster" id="navbar-menu">
+      <div class="navbar-end">
+        <a href="https://justboil.me/bulma-admin-template/free-html-dashboard/" title="About" class="navbar-item has-divider is-desktop-icon-only">
+          <span class="icon"><i class="mdi mdi-help-circle-outline"></i></span>
+          <span>About</span>
+        </a>
+        <a title="Log out" class="navbar-item is-desktop-icon-only" type="button" id="button">
+          <span class="icon"><i class="mdi mdi-logout"></i></span>
+          <span>Log out</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <aside class="aside is-placed-left is-expanded">
+    <div class="aside-tools">
+      <div class="aside-tools-label">
+        <span><b>Admin </b> Rumah Kopi</span>
+      </div>
+    </div>
+    <div class="menu is-menu-main">
+      <p class="menu-label">General</p>
+      <ul class="menu-list">
+        <li>
+          <a href="index.html" class="has-icon">
+            <span class="icon"><i class="mdi mdi-desktop-mac"></i></span>
+            <span class="menu-item-label">Dashboard</span>
+          </a>
+        </li>
+      </ul>
+      <p class="menu-label">Menu</p>
+      <ul class="menu-list">
+        <li>
+          <a href="tables.html" class="has-icon">
+            <span class="icon"><i class="mdi mdi-table"></i></span>
+            <span class="menu-item-label">Produk</span>
+          </a>
+        </li>
+        <li>
+          <a href="logpembelian.html" class="has-icon">
+            <span class="icon"><i class="mdi mdi-table"></i></span>
+            <span class="menu-item-label">Log Pembelian</span>
+          </a>
+        </li>
+      </ul>
+      <p class="menu-label">About</p>
+      <ul class="menu-list">
+        <li>
+          <a href="https://github.com/Rumahkopi/Rumahkopi.github.io" target="_blank" class="has-icon">
+            <span class="icon"><i class="mdi mdi-github-circle"></i></span>
+            <span class="menu-item-label">GitHub</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="has-icon">
+            <span class="icon"><i class="mdi mdi-help-circle"></i></span>
+            <span class="menu-item-label">About</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+  <section class="section is-title-bar">
+    <div class="level">
+      <div class="level-left">
+        <div class="level-item">
+          <ul>
+            <li>Admin</li>
+            <li>Tables</li>
+          </ul>
+        </div>
+      </div>
+      <div class="level-right">
+        <div class="level-item">
+          <div class="buttons is-right">
+            <a href="https://github.com/Rumahkopi/Rumahkopi.github.io" target="_blank" class="button is-dark">
+              <span class="icon"><i class="mdi mdi-github-circle"></i></span>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="hero is-fullheight">
+    <div class="hero-head">
+      <div class="container">
+        <br>
+        <br>
+        <div class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              <span class="icon"><i class="mdi mdi-ballot"></i></span>
+              Update Data Produk
+            </p>
+          </header>
+          <div class="card-content">
+            <form method="post">
+              <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label">Nama</label>
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <p class="control is-expanded">
+                      <input id="nama" class="input" type="text" placeholder="Masukkan Nama Produk" required>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label">Harga</label>
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <div class="control">
+                      <input id="harga" class="input" placeholder="Masukkan Harga Produk" required></input>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label">Deskripsi</label>
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <div class="control">
+                      <textarea id="deskripsi" class="textarea" placeholder="Masukkan Deskripsi Produk" required></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label">Stok</label>
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <div class="control">
+                      <input id="stok" class="input" placeholder="Masukkan Stok Produk" required></input>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label">Image</label>
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <div class="control">
+                      <input  id="image" class="input" placeholder="Masukan Url Untuk Gambar" required></input>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="field is-horizontal">
+                <div class="field-label">
+                  <!-- Left empty for spacing -->
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <div class="field is-grouped">
+                      <div class="control">
+                        <button type="button" class="button is-dark" id="btnUpdate">
+                          <span>Update</span>
+                        </button>
+                      </div>
+                      <div class="control">
+                        <a href="tables.html" type="button" class="button is-dark is-outlined">
+                          <span>Kembali</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="level">
+        <div class="level-left">
+          <div class="level-item">
+            © 2023, Rumah Kopi
+          </div>
+        </div>
+        <div class="level-right">
+          <div class="level-item">
+            <div class="logo">
+              <a href="#"><img src="../img/logo2.png" alt="RumahKopi"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!-- Scripts below are for demo only -->
+<!-- <script type="module" src="https://cdn.jsdelivr.net/gh/Rumahkopi/js@0.0.2/jsadmin/get.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/gh/Rumahkopi/js@0.0.2/jsadmin/logout.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/gh/Rumahkopi/js@0.0.2/jsadmin/main.js"></script> -->
+<script type="module" src="../js/fetchEditProduk.js"></script>
+<script type="module" src="../js/UpdateProduk.js"></script>
+<script src="../js/main.js"></script>
+
+<!-- Icons below are for demo only. Feel free to use any icon pack. Docs: https://bulma.io/documentation/elements/icon/ -->
+<link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.9.95/css/materialdesignicons.min.css">
+</body>
+</html>

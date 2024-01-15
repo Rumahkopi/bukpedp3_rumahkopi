@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="WishFund,business,company,agency,multipurpose,modern,bootstrap4">
+  <title>Rumah Kopi</title>
+  <!-- bulma css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="shortcut icon" type="image/x-icon" href="./images/logo2.png" />
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+	<!-- Icon -->
+  <link rel="stylesheet" href="css/icofont/icofont.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- js -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+<body>
+<!-- Animasi Loading -->
+  <div id="loader-wrapper">
+	<div class="spinner"></div>
+	<p class="loading-text"></p>
+  </div>  
+<!-- Header Start  -->
+<header class="navigation is-fixed-top">
+	<div class="header-top ">
+		<div class="container">
+			<div class="columns is-gapless is-justify-content-space-between is-align-items-center">
+				<div class="column is-6-desktop is-4-tablet has-text-left-desktop has-text-centered-mobile">
+					<div class="header-top-info">
+						<a href="tel:+23-345-67890"><i class="icofont-phone"></i><span>+23-345-67890</span></a>
+						<a href="mailto:support@gmail.com" ><i class="icofont-email"></i><span>rumahkopi@gmail.com</span></a>
+					</div>
+				</div>
+				<div class="column is-6-desktop is-8-tablet">
+					<div class="header-top-right has-text-right-tablet has-text-centered-mobile">
+						<a href="https://github.com/Rumahkopi/Rumahkopi.github.io" target="_blank"><i class="icofont-github"></i></a>
+						<a href="https://github.com/Rumahkopi/Rumahkopi.github.io" target="_blank"><i class="icofont-instagram"></i></a>
+						<a href="login.html" class="top-btn">Sign In</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<nav id="navbar" class="navbar main-nav is-dark">
+			<div class="navbar-center">
+			  <span class="nav-item">
+          <a class="navbar-link" href="index.html">Home</a>
+			  </span>
+			  <span class="nav-item">
+				<a class="navbar-link" href="about.html">About</a>
+					</span>
+			  <!-- app logo -->
+			  <img class="image" src="images/logo2.png" alt="store logo" width="70" height="70"/>
+			  <span class="nav-item">
+				<a class="navbar-link" href="#produk">Produk</a>
+					</span>	
+			  <div class="cart-btn">
+				<span class="nav-icon">
+				  <i class="fa fa-cart-plus" aria-hidden="true"></i>
+				</span>
+				<div class="cart-items">0</div>
+			  </div>
+			</div>
+	</nav>
+</header>
+<!-- Header Close -->
+<!-- Slider Start -->
+<section class="slider">
+	<div class="container">
+		<div class="columns is-justify-content-center">
+			<div class="column is-9-desktop is-10-tablet">
+				<div class="block has-text-centered">
+					<h1 class="mb-3 typewriter-text">Rumah Kopi</h1>
+					<p class="mb-2">Nikmati Harimu Dengan Secangkir Kopi.</p>
+					<p id="daily-quote" class="mb-3">kata - kata hari ini :</p>
+					<a href="#produk" class="button is-light is-outlined"> Beli Sekarang</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section intro" id="about">
+	<div class="container">
+		<div class="columns is-align-items-center is-desktop">
+			<div class="column is-6-desktop">
+				<div class="section-title mb-0">
+					<img class="content-title" src="images/gallery/rumahkopi1.png"/>
+				</div>
+			</div>
+			<div class="column is-6-desktop">
+				<h2 style="text-align: center;">Rumah Kopi</h2>
+				<p style="text-align: justify;">Selamat datang di Rumah Kopi kami, tempat di mana aroma kopi memukau dan atmosfer yang santai mengundang Anda untuk menjelajahi pengalaman kopi yang unik. Dengan dekorasi yang elegan dan nyaman, setiap cangkir kopi menjadi perjalanan melintasi benua, menggabungkan biji terpilih dari penjuru dunia. Di sini, kopi bukan hanya minuman, tetapi juga sebuah cerita yang diceritakan melalui aroma dan cita rasa yang istimewa. Suasana yang hangat, diperindah dengan seni lokal, menciptakan ruang yang sempurna untuk bersantai, bekerja, atau berbagi cerita dengan teman-teman. Staf kami yang berpengetahuan luas siap membantu Anda menemukan kopi yang sesuai dengan selera Anda. Mari nikmati momen-momen tak terlupakan di Rumah Kopi kami, di mana setiap cangkir adalah panggilan untuk merayakan keindahan dan keanekaragaman dunia kopi.</p>
+			</div>
+		</div>
+		<div class="columns is-multiline is-justify-content-center">
+			<div class="column is-3-desktop is-6-tablet">
+				<div class="intro-item mb-5 mb-lg-0"> 
+					<img src="images/product/kopiaren.webp" alt="" class=" w-100">
+					<h4 class="mt-4 mb-3">Kopi Aren</h4>
+					<p style="text-align: justify;">Kopi aren, produk kopi khas Indonesia, menonjolkan keunikannya dengan penggunaan gula aren atau gula kelapa. Citarasanya yang kaya dan manis alami menciptakan pengalaman minum kopi yang autentik, sering disajikan tanpa filter. Tersedia dalam bentuk bubuk atau kemasan siap saji, kopi aren membawa cita rasa kopi Indonesia yang khas.</p>
+				</div>
+			</div>
+			<div class="column is-3-desktop is-6-tablet">
+				<div class="intro-item mb-5 mb-lg-0">
+					<img src="images/product/kopiespresso.webp" alt="" class=" w-100">
+					<h4 class="mt-4 mb-3">Kopi Espresso</h4>
+					<p style="text-align: justify;">Espresso adalah minuman kopi konsentrat yang dihasilkan dengan memaksa air panas melalui bubuk kopi halus. Dikenal dengan kekentalan dan kekuatannya, espresso memiliki citarasa intens yang mencakup keasaman, manis, dan pahit. Digunakan sebagai dasar untuk minuman kopi lainnya, espresso memberikan pengalaman minum kopi yang kuat dan berdimensi.</p>
+				</div>
+			</div>
+			<div class="column is-3-desktop is-6-tablet">
+				<div class="intro-item">
+					<img src="images/product/kopiamericano.jpeg" alt="" class=" w-100">
+					<h4 class="mt-4 mb-3">Kopi Americano</h4>
+					<p style="text-align: justify;">Americano adalah minuman kopi yang terbuat dari espresso yang dilarutkan dengan air panas. Dengan kepekatan lebih rendah daripada espresso, Americano memiliki citarasa ringan yang mirip dengan kopi hitam, namun tetap mempertahankan karakteristik espresso yang khas. Cocok untuk pencinta kopi yang menginginkan kombinasi kekuatan dan kelembutan.</p>
+				</div>
+			</div> 
+			<div class="column is-3-desktop is-6-tablet">
+				<div class="intro-item">
+					<img src="images/product/kopiaren.webp" alt="" class=" w-100">
+					<h4 class="mt-4 mb-3">Kopi Susu Areng</h4>
+					<p style="text-align: justify;">Kopi Susu Jos adalah minuman kopi Indonesia yang lezat, terbuat dari campuran kopi tubruk dan susu kental manis. Citarasa kopi yang kuat dipadukan dengan kelembutan susu kental manis, menciptakan pengalaman minum kopi yang memuaskan dan unik.</p>
+				</div>
+			</div> 
+		</div>
+	</div>
+</section>
+<section class="section gallery">
+	<div class="container">
+		<div class="columns is-justify-content-center">
+			<div class="column is-8-desktop is-10-tablet">
+					<h2 class="mt-4 mb-5 is-relative content-title">Semua Ruangan Yang Bisa Di Nikmati Dan Ada Di Rumah Kopi.</h2>
+			</div>
+		</div>
+	<div class="container">
+		<div class="gallery-wrap">
+			<div class="columns is-multiline">
+				<div class="column is-4-desktop is-12-tablet">
+					<div class="gallery-item">
+						<a href="images/gallery/1.jpeg" class="gallery-popup">
+							<img src="images/gallery/1.jpeg" alt="" class=" w-100">
+						</a>
+					</div>
+				</div>
+				<div class="column is-4-desktop is-12-tablet">
+					<div class="gallery-item">
+						<a href="images/gallery/2.jpg" class="gallery-popup">
+							<img src="images/gallery/2.jpg" alt="" class=" w-100">
+						</a>
+					</div>
+				</div>
+				<div class="column is-4-desktop is-12-tablet">
+					<div class="gallery-item">
+						<a href="images/gallery/3.jpg" class="gallery-popup">
+							<img src="images/gallery/3.jpg" alt="" class=" w-100">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+  <!-- start of products -->
+  <section class="products" id="produk">
+	<div class="section-title">
+	  <h2>Order Disini!!</h2>
+	</div>
+
+	<div class="products-center">
+	  <!-- single product start -->
+	  <!-- <article class="product">
+		<div class="img-container">
+		  <img
+			src="./assets/img/product-1.jpeg"
+			alt="product"
+			class="product-img"
+		  />
+
+		  <button class="bag-btn" data-id="1">
+			<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+			add to bag
+		  </button>
+		</div>
+		<h3>queen bag</h3>
+		<h4>Price: $16</h4>
+	  </article> -->
+	  <!-- single product end -->
+	</div>
+  </section>
+  <!-- end of products -->
+
+  <!-- start of cart -->
+<div class="cart-overlay">
+  <div class="cart">
+    <span class="close-cart">
+      <i class="fa fa-window-close" aria-hidden="true"></i>
+    </span>
+	<span class="clear-cart">
+		<i class="fa fa-trash" aria-hidden="true"></i>
+	  </span>
+    <h2>Your Cart</h2>
+    <!-- Other cart content goes here -->
+
+	  <div class="cart-content">
+		<!-- cart item start -->
+		<!-- <div class="cart-item">
+		  <img src="./assets/img/product-1.jpeg" alt="product" />
+
+		  <div>
+			<h4>queen bed</h4>
+			<h5>$9.00</h5>
+			<span class="remove-item">remove</span>
+		  </div>
+
+		  <div>
+			<i class="fa fa-chevron-up" aria-hidden="true"></i>
+			<p class="item-amount">1</p>
+			<i class="fa fa-chevron-down" aria-hidden="true"></i>
+		  </div>
+		</div> -->
+		<!-- cart item end -->
+	  </div>
+	  <!-- cart footer -->
+	  <div class="cart-footer">
+		<p>Total : Rp. <span class="cart-total">0</span></p>
+
+		<!-- clear all cart item button -->
+		<!-- <button class="clear-cart banner-btn">Clear Cart</button> -->
+	  </div>
+	  
+    <!-- Add the form for entering the name -->
+	<div class="card-content">
+		<h2>Informasi Customer</h2>
+    <form id="nameForm">
+		<div class="field is-horizontal">
+			<div class="field-label is-normal">
+			  <label class="label">Nama</label>
+			</div>
+			<div class="field-body">
+			  <div class="field">
+				<p class="control is-expanded">
+				  <input id="nama" class="input" type="text" placeholder="Masukkan Nama Anda" required>
+				</p>
+			  </div>
+			</div>
+		  </div>
+		  <div class="field is-horizontal">
+			<div class="field-label is-normal">
+			  <label class="label">Alamat</label>
+			</div>
+			<div class="field-body">
+			  <div class="field">
+				<p class="control is-expanded">
+				  <input id="alamat" class="input" type="text" placeholder="Masukkan Alamat Anda" required>
+				</p>
+			  </div>
+			</div>
+		  </div>
+		  
+		  <div class="field is-horizontal">
+			<div class="field-label is-normal">
+			  <label class="label">No. HP</label>
+			</div>
+			<div class="field-body">
+			  <div class="field">
+				<p class="control is-expanded">
+				  <input id="nohp" class="input" type="text" placeholder="Masukkan No. HP Anda" required>
+				</p>
+			  </div>
+			</div>
+		  </div>
+		  <div class="field is-horizontal">
+			<div class="field-label is-normal">
+				<label class="label">Total Produk</label>
+			</div>
+			<div class="field-body">
+				<div class="field">
+					<p class="control is-expanded">
+						<input id="totalProducts" class="input" type="text" placeholder="Total Produk" readonly>
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Add this input field for displaying product names and counts -->
+		<div class="field is-horizontal">
+			<div class="field-label is-normal">
+				<label class="label">Nama Produk</label>
+			</div>
+			<div class="field-body">
+				<div class="field">
+					<textarea id="productNames" class="textarea" placeholder="Nama Produk" rows="4" readonly></textarea>
+				</div>
+			</div>
+		</div>
+
+		  <div class="cart-footer">
+		  <button class="checkout-all-btn">Checkout</button>
+		  </div>
+    </form>
+	</div>
+	</div>
+  </div>
+  </div>
+  </div>
+
+<!-- footer Start -->
+<footer class="footer">
+	<div class="container">
+		<div class="columns is-multiline">
+			<div class="column is-4-desktop is-6-tablet">
+				<div class="footer-widget widget">
+					<h4 class="is-capitalize mb-4 text-white">Company</h4>
+					<p>Flat 20, Reynolds Neck, North <br>Helenaville, FV77</p>
+
+					<ul class="list-unstyled footer-menu mt-4">
+						<li><a href="#"><i class="icofont-phone"></i>+2(305) 587-3407</a></li>
+						<li><a href="#"><i class="icofont-email"></i>rumahkopi@gmail.com</a></li>
+					</ul>
+					<ul class="list-inline footer-socials">
+						<li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i class="icofont-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="https://twitter.com/themefisher"><i class="icofont-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.pinterest.com/themefisher/"><i class="icofont-linkedin"></i></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="column is-2-desktop is-6-tablet">
+				<div class="widget footer-widget">
+					<h4 class="is-capitalize mb-4 text-white">Quick Links</h4>
+
+					<ul class="list-unstyled footer-menu lh-35">
+						<li><a href="#">About</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Team</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="column is-3-desktop is-6-tablet">
+				<div class="footer-widget widget">
+					<h4 class="is-capitalize mb-4 text-white">Subscribe Us</h4>
+					<p class="mb-4">Subscribe to get latest news article and resources  </p>
+
+					<form action="#" class="sub-form">
+						<input type="text" class="input mb-4 text-white" placeholder="Subscribe Now ...">
+						<a href="#" class="btn btn-main btn-small is-rounded">subscribe</a>
+					</form>
+				</div>
+			</div>
+
+			<div class="column is-3-desktop is-6-tablet">
+				<div class="widget footer-widget">
+					<h4 class="is-capitalize mb-4 text-white">Gallery</h4>
+
+					<div class="gallery-wrap">
+						<div class="gallery-img">
+							<img src="images/gallery/1.jpeg" alt="" class="">
+						</div>
+						<div class="gallery-img">
+							<img src="images/gallery/2.jpg" alt="" class="">
+						</div>
+						<div class="gallery-img">
+							<img src="images/gallery/3.jpg" alt="" class="">
+						</div>
+						<div class="gallery-img">
+							<img src="images/gallery/4.jpg" alt="" class="">
+						</div>
+						<div class="gallery-img">
+							<img src="images/gallery/5.jpg" alt="" class="">
+						</div>
+						<div class="gallery-img">
+							<img src="images/gallery/6.jpg" alt="" class="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<div class="footer-btm py-5">
+		<div class="columns is-justify-content-center">
+			<div class="column is-12">
+				<div class="copyright has-text-centered">
+					<small>&copy; Copyright by <a href="#" target="_blank" class="text-color">Rumah Kopi</a></small>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+	<!-- Add the smooth scroll script -->
+    <script src="js/script.js" type="module"></script>
+	<script src="js/scriptapi.js" type="module"></script>
+	<script src="js/addtocart.js"></script>
+	<script src="./assets/js/app.js" type="module"></script>
+	<script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
+	<script>
+	  var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"Hubungi Kami","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"085716349516","welcomeMessage":"Kirim pesan dengan keyword \"Ada Masalah\" ","zIndex":999999,"btnColorScheme":"light"};
+	  var wa_widgetSetting = {"title":"Rumah Kopi","subTitle":"","headerBackgroundColor":"#16BE45","headerColorScheme":"light","greetingText":"Hi, Ada yang bisa kami bantu?","ctaText":"Memulai Obrolan","btnColor":"#16BE45","cornerRadius":40,"welcomeMessage":"Hello","btnColorScheme":"light","brandImage":"https://raw.githubusercontent.com/Rumahkopi/foto/main/logo2.png","darkHeaderColorScheme":{"title":"#333333","subTitle":"#4F4F4F"}};  
+	  window.onload = () => {
+		_waEmbed(wa_btnSetting, wa_widgetSetting);
+	  };
+	</script>
+  
+  
+  
+  
+  
+	  
+      

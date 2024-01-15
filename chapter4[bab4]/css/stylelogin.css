@@ -1,0 +1,103 @@
+html,body {
+  font-family: 'Questrial', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+.hero.is-success {
+  background: #F2F6FA;
+}
+.hero .nav, .hero.is-success .nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.box {
+  margin-top: 5rem;
+}
+.avatar {
+  margin-top: -70px;
+  padding-bottom: 20px;
+}
+.avatar img {
+  padding: 5px;
+  background: #fff;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+}
+input {
+  font-weight: 300;
+}
+p {
+  font-weight: 700;
+}
+p.subtitle {
+  padding-top: 1rem;
+}
+
+.login-hr{
+  border-bottom: 1px solid black;
+}
+
+.has-text-black{
+  color: black;
+}
+
+.field{
+  padding-bottom: 10px;
+}
+
+.fa{
+  margin-left: 5px; 
+}
+    /* Gaya untuk elemen loader */
+    #loader-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.8);
+      z-index: 1000;
+    }
+
+    .spinner {
+      width: 40px;
+      height: 40px;
+      border: 4px solid #3498db;
+      border-radius: 50%;
+      border-top: 4px solid #e74c3c;
+      animation: spin 1s linear infinite;
+    }
+
+	/* Animasi loading */
+	#loader-wrapperz {
+	  position: fixed;
+	  width: 100%;
+	  height: 100%;
+	  background: none  ; /* Ganti dengan warna latar belakang yang Anda inginkan */
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  z-index: 9999;
+	}
+  
+	#loaderz {
+	  border: 8px solid #f3f3f3; /* Light grey */
+	  border-top: 8px solid #000; /* Blue */
+	  border-radius: 50%;
+	  width: 50px;
+	  height: 50px;
+	  animation: spinz 2s linear infinite; /* Durasi animasi 2 detik */
+	}
+  
+	@keyframes spinz {
+	  0% { transform: rotate(0deg); }
+	  100% { transform: rotate(360deg); }
+	}
+  #loading-text {
+    margin-top: 20px;
+    font-size: 16px;
+  }
